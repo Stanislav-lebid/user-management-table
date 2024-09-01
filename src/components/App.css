@@ -1,0 +1,72 @@
+/* Загальні стилі для додатку */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Контейнер таблиці */
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Заголовки таблиці */
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Клітинки таблиці */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Клітинки в рядках, що чергуються */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Стан при наведенні */
+tbody tr:hover {
+  background-color: #e2e6ea;
+}
+
+/* Стилі для полів пошуку */
+input[type="text"] {
+  width: calc(100% - 20px);
+  max-width: 760px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  font-size: 16px;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
