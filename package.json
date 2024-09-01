@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Stanislav-lebid/react-app-user-management",
+  "homepage": "https://github.com/Stanislav-lebid/user-management-table",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -9,7 +9,26 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "axios": "^1.7.7",
     "gh-pages": "^6.1.1",
+    "react-redux": "^9.1.2",
     "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react-redux": "^7.1.33"
   }
 }
